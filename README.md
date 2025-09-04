@@ -61,3 +61,15 @@ Includes a TypeScript tutorial for minting NFTs.
 
 ## 📜 License
 MIT License © 2025
+
+## ⚠️ Security Disclaimer
+
+- **Never share or commit your private key** to GitHub or any public repository.  
+- Always store your `.env` file locally and make sure it is listed in your `.gitignore`.  
+- For production, consider using **secure key management solutions** such as:
+  - Hardware wallets (Ledger, Trezor, etc.)
+  - Environment secrets in GitHub Actions
+  - Vault services (HashiCorp Vault, AWS KMS, etc.)
+
+By running the script with your private key, **you take full responsibility for your wallet security**.
+
